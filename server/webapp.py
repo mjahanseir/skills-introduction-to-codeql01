@@ -2,8 +2,6 @@ import os
 import sqlite3
 
 from flask import Flask
-
-
 ROOT = os.path.dirname(os.path.abspath(os.path.dirname(__file__)))
 TEMPLATES = os.path.join(ROOT, 'templates')
 
